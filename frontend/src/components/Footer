@@ -1,0 +1,59 @@
+import React from 'react';
+
+export default function Footer() {
+  return (
+    <footer style={{
+      position: 'relative',
+      zIndex: 10,
+      padding: '24px 40px',
+      borderTop: '1px solid rgba(255,255,255,0.06)',
+      backdropFilter: 'blur(12px)',
+      textAlign: 'center',
+      marginTop: 60,
+    }}>
+      <div style={{
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'center',
+        gap: 10,
+        flexWrap: 'wrap',
+      }}>
+        <span style={{ fontSize: 16 }}>✦</span>
+        <span style={{
+          fontFamily: 'Syne, sans-serif',
+          fontSize: 14,
+          color: '#7a85a3',
+          letterSpacing: '0.03em',
+        }}>
+          Aditya Engineering College
+        </span>
+        <span style={{
+          background: 'rgba(91,110,245,0.15)',
+          border: '1px solid rgba(91,110,245,0.3)',
+          borderRadius: 100,
+          padding: '2px 12px',
+          fontSize: 12,
+          color: '#a78bfa',
+          fontWeight: 600,
+        }}>Data Science</span>
+        <span style={{
+          background: 'rgba(167,139,250,0.12)',
+          border: '1px solid rgba(167,139,250,0.25)',
+          borderRadius: 100,
+          padding: '2px 12px',
+          fontSize: 12,
+          color: '#818cf8',
+          fontWeight: 600,
+        }}>@ Batch 2026</span>
+      </div>
+      <div style={{
+        marginTop: 8,
+        fontSize: 11,
+        color: 'rgba(122,133,163,0.5)',
+        letterSpacing: '0.05em',
+      }}>
+        © {new Date().getFullYear()} GenUx · AI-Powered UX Layout Generator
+      </div>
+    </footer>
+  );
+}
