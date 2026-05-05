@@ -1,12 +1,11 @@
-# ✦ UX Layout AI Generator
+# UX Layout AI Generator
 
-An AI-powered UX design tool that generates **2 completely different layout designs** from a single text prompt.
-Built with **React + Python FastAPI + Groq**.
+An AI-powered UX design generator that generates **2 fully structured UI layouts** with real-time previews, design systems, and UX insights from a text prompt.
+Built with **React + Python FastAPI + OpenAI**.
 
 ---
 
 ## 🎯 What It Does
-
 - You type a prompt describing your app idea
 - GPT-4o generates **2 unique UX layouts** side by side
 - Each layout includes:
@@ -48,7 +47,7 @@ ux-layout-ai/
 ## ⚙️ Setup Instructions
 
 ### Step 1: Get Your OpenAI API Key
-1. Go to https://console.groq.com/keys
+1. Go to [https://platform.openai.com/api-keys]
 2. Create an account and add credits (~$5 minimum)
 3. Create a new API key and copy it
 
@@ -127,6 +126,15 @@ Then open http://localhost:3000 in your browser.
 | Backend | Python, FastAPI, Uvicorn |
 | AI Model | GPT-4o (OpenAI) |
 | API | REST (JSON) |
+
+---
+
+## ✨ Features
+- Generate 2 unique UX layouts from a single prompt
+- Real-time HTML preview rendering (iframe tags)
+- Automated color palette and typography system
+- Structured UI sections (Navbar, Hero, CTA, Footer)
+- AI-driven UX reasoning and target audience insights
 
 ---
 
